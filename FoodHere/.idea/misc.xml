@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_cart.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_drawer_header.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_forget_page.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_main.xml" value="0.5137614678899083" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_menu.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_order_placed.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_otppage.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_place_order.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/activity_registration.xml" value="0.165625" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/cartrv.xml" value="0.17864583333333334" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/content_login.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/favouriterv.xml" value="0.17864583333333334" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/fragment_favorite.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/fragment_log_out.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/fragment_menu.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/fragment_profile.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/header.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/menurv.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/layout/rv.xml" value="0.1796875" />
+        <entry key="..\:/FoodHere/app/src/main/res/menu/menu_items.xml" value="0.5" />
+        <entry key="..\:/FoodHere/app/src/main/res/xml/network_security_config.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

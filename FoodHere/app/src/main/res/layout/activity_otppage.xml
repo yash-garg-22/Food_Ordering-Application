@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPpage"
+    android:background="#F11212">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the received OTP below"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="4dp"
+        android:padding="5dp"
+        android:hint="OTP(4 characters)"
+        android:text=""
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:layout_below="@+id/otp"
+        android:layout_marginTop="4dp"
+        android:padding="5dp"
+        android:hint="New Password"
+        android:text=""
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        />
+
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="4dp"
+        android:padding="5dp"
+        android:hint="Confirm Password"
+        android:text=""
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        />
+
+    <Button
+        android:id="@+id/bttn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/confirmPass"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Submit"
+        />
+
+</RelativeLayout>

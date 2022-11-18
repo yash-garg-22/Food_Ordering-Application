@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#DA1111">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_food_bank_24"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="5dp"
+        android:layout_below="@+id/img"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#575555"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:padding="5dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_security"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:background="#575555"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:maxLength="8"
+        android:inputType="numberPassword"
+        android:layout_below="@+id/username"
+        android:layout_margin="4dp"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/bttn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/password"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F7000000"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Don't have account? Register Now!!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/bttn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:hint="Forget Password"
+        android:padding="4dp"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

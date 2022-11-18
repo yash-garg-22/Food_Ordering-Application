@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetPage"
+    android:background="#F11212">
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_food_bank_24"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food"
+        android:padding="5dp"
+        android:text="Enter your registered mobile number and email below"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:hint="Mobile number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="5dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/mobile"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:hint="Password"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bttn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/password"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="Next" />
+</RelativeLayout>

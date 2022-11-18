@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EA0909">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_person"
+            android:layout_centerHorizontal="true"/>
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="@color/white"
+            android:layout_below="@+id/img" />
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#6C6A6A"
+            android:layout_below="@+id/view"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:hint="Name"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edt1"
+            android:layout_marginTop="5dp"
+            android:background="#6C6A6A"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:minLines="1"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edt2"
+            android:layout_marginTop="5dp"
+            android:background="#6C6A6A"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#6C6A6A"
+            android:layout_below="@+id/edt3"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:hint="Address"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textPostalAddress"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edt4"
+            android:layout_marginTop="5dp"
+            android:background="#6C6A6A"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#6C6A6A"
+            android:layout_below="@+id/edt5"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:hint="Confirm Password"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="numberPassword"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/confirm"
+            android:background="#AC5A76"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Register"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

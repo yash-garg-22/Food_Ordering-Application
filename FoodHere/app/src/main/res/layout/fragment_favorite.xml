@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Favorite"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/RestaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Name of Restaurant"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="100"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="330"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/RestaurantName"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="29dp"
+        />
+
+    <ImageView
+        android:id="@+id/favourate"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_favorite_border_24" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/favourate"
+        android:layout_marginTop="25dp"
+        android:text="4.1"
+        android:layout_marginRight="33dp"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/rupees"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:src="@drawable/rupee"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/RestaurantName"
+        android:layout_marginTop="20dp"
+        />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
